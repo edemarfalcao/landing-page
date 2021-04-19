@@ -6,9 +6,19 @@
 
 <body>
     <aside class="rounded">
-        <section>
-            <div></div>
-        </section>
+
+        <article>
+            <h3>Lorraine Teixeira</h3>
+            <h4>Freelancer Designer </h4>
+            <ul id="navmenu">
+                <li><img src="" alt="Home"></li>
+                <li><img src="" alt="Portfolio"></li>
+                <li><img src="" alt="Skills"></li>
+                <li><img src="" alt="About"></li>
+                <li><img src="" alt="Get in touch"></li>
+            </ul>
+            <article>
+
     </aside>
     <main>
         <header class="rounded">
@@ -23,7 +33,7 @@
         </header>
         <!--Photo Galery-->
         <section id="galery" class="rounded">
-            <h2>Portfolio</h2>
+            <h2 id="port">Portfolio</h2>
             <div id="imgs">
                 <div></div>
                 <div></div>
@@ -38,10 +48,25 @@
         <!--Skills and Software-->
         <article id="Skills_Software">
             <div id="skill">
-
+                <h2>Skills</h2>
+                <ul id="skill">
+                    <li><img src="" alt="Wireframing"></li>
+                    <li><img src="" alt="Prototype"></li>
+                    <li><img src="" alt="User Experience"></li>
+                    <li><img src="" alt="UX Writing"></li>
+                    <li><img src="" alt="Personas"></li>
+                    <li><img src="" alt="Customer Journey Map"></li>
+                    <li><img src="" alt="Usability report"></li>
+                </ul>
             </div>
             <div id="software">
-
+                 <h2>Software</h2>
+                <ul id="software">
+                   <li>Figma</li>
+                   <li>Adobe XD</li>
+                   <li>Sketch</li>
+                   <li>Invision</li>
+                </ul>
             </div>
         </article>
 
@@ -63,14 +88,25 @@
 
         <!--Contact Form-->
         <section id="Contact-form" class="rounded">
-            <h2> Get in touch</h2>
+            <h2 id="get"> Get in touch</h2>
             <article id="image">
                 <img id="email" src="phone-email-icon-5.jpg" alt="">
             </article>
             <article id="form">
-                <button id="see"> &nbsp;&nbsp;Enviar &nbsp;&nbsp;</button>
+                <form method="POST" id="contact" action="mailto:files.falcao@gmail.com">
+                    <fieldset id="form">
+                        <p><label for="cNome">Name</label></p><input type="text" name="tNome" id="cNome" size="50"
+                            maxlength="30">
+                        <P><label for="cEmail">Email <br></label><input type="email" name="tEmail" id="cEmail" size="50"
+                                maxlength="30"></P>
+                        <p><label for="cMsg">Mensagem</label>
+                            <textarea id="tMsg" id="cMsg" cols="53" rows="8"></textarea>
+                        </p>
+                    </fieldset>
+                    <button id="submit"> &nbsp;&nbsp;Enviar &nbsp;&nbsp;</button>
+                </form>
             </article>
-            
+
         </section>
 
     </main>

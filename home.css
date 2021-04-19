@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-
+    font-family: 'Roboto', sans-serif; ;
 }
 
 body {
@@ -72,7 +74,7 @@ button {
     padding: 12px ;
     background-image: linear-gradient(to right, #4737F2 , #8344FF);
     color: #FFFFFF;
-    font-family: sans-serif;
+    font-family: 'Roboto' sans-serif;
     font-size: 8pt;
     border-radius: 20px;
     border: none;
@@ -81,19 +83,28 @@ button {
    
 }
 
-button#see {margin-top: -50px;}
+
+
+button#see {margin-top: -50px;
+;}
 
 button#talk { margin-top: 15px;}
 
 button#cv { margin-top: 15px;}
+button#submit {margin-top: -20px;
+    text-align: left; 
+    margin-left:  -70px;
+    
+    }
+    
 
 header #titulo  {
-    font-family: sans-serif;
+    
     text-align: left !important;
 }
 
 article#text {
-    font-family: sans-serif;
+    
     text-align: left !important;
     width: 500px;
     padding: 40px;
@@ -104,6 +115,8 @@ img#icon { width: 150px; height: 150px;
 img#email {
     width: 150px; height: 150px;
     box-shadow: rgba(0, 0, 0, 0.212);
+    padding-left: px;
+    
 }    
 
 article#photo {
@@ -144,3 +157,86 @@ article#image {
 }
 
 /*Fim dos tamanhos para teste *?
+
+
+/*Form test*/ 
+
+
+
+form {
+    width: 220px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-block-start: -200px ;
+    
+
+}
+
+input, textarea {
+    
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 18px;
+    border-style: solid;
+
+}
+
+
+
+
+fieldset {
+    border-color: transparent;
+    margin: 20px;
+    border-radius: 18px;}
+
+  
+
+
+article#form p {
+
+ margin: 10px;
+ font-weight: bold;
+ font-size: 13pt;
+ text-align: left;   
+ text-indent: 5px;
+}
+
+h2 {
+    text-align: left !important ;
+    text-indent: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px ;
+}
+
+
+/* Lista Skills */
+
+ul#skill {
+    text-align: left;
+    list-style: none;
+    padding: 50px;
+    font-family: 'Roboto-' sans-serif;
+}
+
+
+ul#navmenu {
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+    font-family: 'Roboto-' sans-serif;
+}
+
+ul#software {   text-align: left;
+    list-style: none;
+    padding: 40px;
+    font-family: 'Roboto-' sans-serif;}
+
+
+#linha{
+    width: 50px;
+    height: 4px;
+    border: 1px solid #000;}
