@@ -88,22 +88,27 @@
 
         <!--Contact Form-->
         <section id="Contact-form" class="rounded">
-            <h2 id="get"> Get in touch</h2>
             <article id="image">
+                <h2 id="get"> Get in touch</h2>
                 <img id="email" src="phone-email-icon-5.jpg" alt="">
             </article>
             <article id="form">
                 <form method="POST" id="contact" action="mailto:files.falcao@gmail.com">
-                    <fieldset id="form">
-                        <p><label for="cNome">Name</label></p><input type="text" name="tNome" id="cNome" size="50"
-                            maxlength="30">
-                        <P><label for="cEmail">Email <br></label><input type="email" name="tEmail" id="cEmail" size="50"
-                                maxlength="30"></P>
-                        <p><label for="cMsg">Mensagem</label>
-                            <textarea id="tMsg" id="cMsg" cols="53" rows="8"></textarea>
+                    <fieldset id="contact-fieldset">
+                        <p>
+                            <label for="cNome">Name <br></label>
+                            <input type="text" name="tNome" id="cNome" size="50" maxlength="30">
+                        </p>
+                        <P>
+                            <label for="cEmail">Email <br></label>
+                            <input type="email" name="tEmail" id="cEmail" size="50" maxlength="30">
+                        </P>
+                        <p>
+                            <label for="cMsg">Mensagem <br></label>
+                            <textarea id="tMsg" id="cMsg" cols="53" rows="6"></textarea>
                         </p>
                     </fieldset>
-                    <button id="submit"> &nbsp;&nbsp;Enviar &nbsp;&nbsp;</button>
+                    <button type="submit" id="submit-contact">Enviar</button>
                 </form>
             </article>
 
