@@ -263,3 +263,118 @@ ul#software {   text-align: left;
     width: 50px;
     height: 4px;
     border: 1px solid #000;}
+
+ /* galeria de imagens */
+
+ div#galery1 {
+     background-image: url("african-american-business-woman-with-computer-coffee_1303-9869.jpg");
+     background-size:cover;
+     background-repeat: no-repeat;
+
+ }
+ div#galery2 {
+    background-image: url("featured-startups-do-something-great.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+div#galery3 {
+    background-image: url("hero-21-1920x1080.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+div#galery4 {
+    background-image: url("emile-perron-xrvdyzrgdw4-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+div#galery5 {
+    background-image: url("magicmouse7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+div#galery6 {
+    background-image: url("what-is-a-computer-algorithm.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.icon {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.menu {
+    margin: 10px;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img#mainicon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    align-items: left;
+}
+
+.iconlist {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+ul#itens {
+    list-style: none;
+    display: inline-flex
+
+}
+
+.link {
+    margin: 8px;
+}
+
+
+hr.div {  
+    width: 160px;;  
+    height: 2px; 
+    background-image: linear-gradient(90deg, #4737f2, transparent);
+    margin-bottom: 7px;  
+    margin-left: 45px;  
+    border: none;
+}
+
+hr#figma {
+    width: 200px;
+    height: 6px;
+    background-color: #4737f2;
+    border-radius: 5px;
+}
+
+hr#adobe {
+    width: 200px;
+    height: 6px;
+    background-color: #4737f2;
+    border-radius: 5px;
+}
+
+hr#sketch {
+    width: 200px;
+    height: 6px;
+    background-color: #4737f2;
+    border-radius: 5px;
+}
+
+hr#invision {
+    width: 200px;
+    height: 6px;
+    background-color: #4737f2;
+    border-radius: 5px;
+}
