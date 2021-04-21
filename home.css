@@ -378,3 +378,17 @@ hr#invision {
     background-color: #4737f2;
     border-radius: 5px;
 }
+
+
+article#laptop {
+  margin-right: -600x;
+  margin-top: -150px;
+  padding-left: 300px;
+  padding-bottom: -0px;
+ 
+
+}
+img#lp {
+    width: 200px;
+    height: 200px;
+}
